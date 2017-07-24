@@ -1,0 +1,1704 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+
+<head>
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative CSS3 Animation Menus" />
+    <meta name="keywords" content="menu, navigation, animation, transition, transform, rotate, css3, web design, component, icon, slide" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style3.css" />
+    
+    
+    <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
+    
+   <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Passion+One|Quicksand|Rubik:400,700" rel="stylesheet">
+
+
+
+    <script type="text/javascript" src="update_cache.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src='js/script.js'></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width">
+
+
+    <!-- quitar barra direcciones en  Chrome on Android-->
+
+    <meta name="theme-color" content="rgba(128,203,196,.5)" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>BREM</title>
+
+
+    <!-- quitar barra direcciones en  Chrome on Android
+
+
+Las dos primeras indican a chrome que tiene que abrir esta aplicación en modo ventana completa y la tercera línea es la del icono que le dará al acceso directo de la pantalla de inicio, puedes poner la url que quieras en el href para que coincida con la ubicación de tu imágen, pero recuerda que el tamaño sea 192×192 píxeles.
+-->
+
+
+
+
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/cita1.png">
+   
+
+
+
+
+
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="BREM">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+
+
+    -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        #view-source {
+            position: fixed;
+            display: block;
+            right: 0;
+            bottom: 0;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            z-index: 900;
+        }
+    </style>
+</head>
+
+
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header hidden-xs hidden-sm">
+
+
+
+    <header class="mdl-layout__header">
+
+        <div class="mdl-layout__header-row">
+
+            <div>
+                <!-- Title -->
+                <span class="mdl-layout-title">BREM </span>
+                <span class="mdl-layout-subtitle">Consultores para la Industria Alimentaria</span>
+            </div>
+
+            <div class="mdl-layout__tab-bar mdl-tabs__panel">
+                <a id="link_home" href="#home" class="mdl-layout__tab" onclick="return home();">Home</a>
+                <a id="link_quienes_somos" href="#quienes_somos" class="mdl-layout__tab" onclick="return quienes();">¿Quienes somos?</a>
+                <a id="link_servicios" href="#servicios" class="mdl-layout__tab" onclick="return servicios();">Servicios que ofrecemos</a>
+                <a id="link_contacto" href="#features" class="mdl-layout__tab" onclick="return contacto();">Contáctanos</a>
+
+            </div>
+        </div>
+
+
+    </header>
+
+
+
+
+
+</div>
+
+
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer  mdl-layout--fixed-header hidden-md hidden-lg">
+    <header class="mdl-layout__header">
+
+
+        <div class="mdl-layout__header-row">
+            <div class="titus2">
+                <!-- Title -->
+                <span class="mdl-layout-title2">BREM </span>
+                <p><span class="mdl-layout-subtitle2">Consultores para la Industria Alimentaria</span>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="mdl-layout__drawer">
+
+        <br><br><br>
+        <!-- <span class="mdl-layout-title">BREM</span>-->
+        <nav class="mdl-navigation">
+            <a id="link_home1" href="#home" class="mdl-navigation__link" onclick="return home();">Home</a>
+            <a id="link_quienes_somos1" href="#quienes_somos" class="mdl-navigation__link" onclick="return quienes();">¿Quienes somos?</a>
+            <a id="link_servicios1" href="#servicios" class="mdl-navigation__link" onclick="return servicios();">Servicios que ofrecemos</a>
+            <a id="link_contacto1" href="#features" class="mdl-navigation__link" onclick="return contacto();">Contáctanos</a>
+
+
+        </nav>
+    </div>
+
+</div>
+
+
+
+
+
+<body class="mdl-layout__content" onload="checkForUpdate()">
+
+
+
+
+    <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
+
+
+
+
+        <main class="mdl-layout__content">
+
+
+
+            <!--<div class="minilogo"></div>-->
+
+
+            <div class="demo-blog__posts mdl-grid">
+
+                <!--<div class="demo-blog__posts mdl-grid"  style="justify-content: center;">      CENTRAODS-->
+
+
+                <!--                  EMPIEZAN SECCIONES            >-->
+
+
+
+
+
+                <!--  ************************************  HOME   ***********************************************************      >-->
+
+
+                <div id="home1" class="mdl-card alimentos_pic  mdl-cell--8-col-phone mdl-cell--8-col-tablet mdl-cell--7-col-desktop mdl-shadow--4dp">
+
+                    <div class="mdl-card__media mdl-color--white color-text--grey-50">
+                    </div>
+
+                    <div class="mdl-card__supporting-text meta mdl-color-white color-text--grey-600">
+                        <!--<div class="minilogo"></div>-->
+                        <div>
+
+                            <strong class="mdl-color-text--grey-600">
+                            <a>BREM consultores para la industria alimentaria</a>, nace de la necesidad y exigencia que surge en la actualidad para las empresas y/o establecimientos procesadores de alimentos, en la que deben garantizar que son capaces de cumplir a lo largo de la cadena de valor, con los controles y estándares adecuados para garantizar la calidad e inocuidad del producto y en apego a los requerimientos legales obligatorios.
+                               
+                            </strong>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div id="home2" class="mdl-card alimentos2_pic mdl-cell--8-col-phone  mdl-cell--8-col-tablet col-desktop mdl-cell--4-col-desktop mdl-shadow--4dp">
+                    <div class="mdl-card__media mdl-color--white color-text--black" style="text-align:justify">
+                    </div>
+                    <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
+                        <div>
+                            <strong> Las empresas alimenticias para ser competitivas y abrirse mercado, es necesario que implementen Sistemas de Gestión que cumplan con las normativas las cuales garantizan que los procesadores alimentarios cuenten con los controles necesarios durante su proceso productivo y así mismo asegurar la capacidad para abastecer la demanda del mercado.</strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="CB">
+
+
+
+
+
+                    <div id="home3" class="demo-blog mdl-card citas_brem mdl-cell--10-col-phone mdl-cell--8-col-tablet  mdl-cell--11-col-desktop ">
+
+                        <div class="container_citas">
+                            <div class="div-img_citas">
+                                <img class="img" src="images/cita1.png">
+
+
+                                <div class="text mdl-color-text--white">Philip Crosby</div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div id="home4" class="mdl-card__text citas_brem2 mdl-color-text--grey-600 mdl-cell--8-col-phone mdl-cell--8-col-tablet mdl-cell--11-col-desktop  mdl-shadow--4dp ">
+                        Autor que contribuyo a la teoría gerencial y a las prácticas de la gestión de la calidad, decía que la calidad no cuesta y en efecto, lo que cuesta es no tener calidad. A partir de esta frase, algunos autores has encontrado que las empresas gastan entre el 20% y 25% de los valores facturados, en corregir los defectos (reprocesos o no conformidades) por no tener un sistema de gestión de calidad implementado.
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+                <div id="home5" class="mdl-card goal mdl-cell mdl-cell--8-col-phone  mdl-cell--11-col-desktop mdl-shadow--4dp" style="background: none;">
+                    <div class="mdl-card__media">
+
+
+
+                    </div>
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600" style="background:white;">
+                        <span> En <a>BREM</a> consultores para la industria alimentaria nos especializamos en asesoramiento y consultoría para el desarrollo, implementación y mejora de Sistemas de Gestión de Calidad, Inocuidad, Desarrollo de Nuevos productos y mejora continua de los procesos a lo largo de la cadena de valor, de la pequeña y mediana empresa.</span>
+                    </div>
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600" style="background:white;">
+                        <span>Contamos con consultores especializados altamente capacitados con mas de 15 años de experiencia en la industria de alimentos, los cuales están enfocados en superar las expectativas de nuestros clientes proponiendo, desarrollando e implementando el Sistema que mejor se adapte a su negocio y detectando las áreas de oportunidad, que puedan tener un impacto significativo en su empresa a corto y/o mediano plazo, estableciendo un plan de mejora.</span>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <!--  ************************************  Quienes Somos   ***********************************************************      >-->
+
+
+                <div id="quienes_somos1" class="mdl-card nube-brem mdl-cell mdl-cell--12-col mdl-cell--12-col mdl-shadow--4dp" style="display:none;">
+                    <div align="center" class="demo-card-nube mdl-card mdl-shadow--2dp">
+                        <img class="img" src="images/nube.png" title="Foto2" alt="Foto2">
+                    </div>
+                </div>
+
+
+
+                <div id="quienes_somos2" class="mdl-card-somosbrem mdl-cell mdl-cell--6-col mdl-cell--6-col-desktop mdl-shadow--4dp" style="display:none;">
+                    <div class="mdl-card__title-somosbrem mdl-color-text--blue">
+                        <h2 class="mdl-card__title-text-somosbrem">BREM</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                        Somos una empresa 100% mexicana la cual tiene como objetivo principal el evaluar y satisfacer las necesidades de nuestros clientes, mediante un sistema integral, ofreciendo servicios consultoria de alta calidad enfocados a cubrir las necesidades que se demandan en la actualidad a las empresas procesadoras de alimentos, ayudando a aumentar su productividad y hacerlos competitivos en el mercado actual.
+                    </div>
+                </div>
+
+
+                <div id="quienes_somos3" class="mdl-card-priori mdl-cell mdl-cell mdl-cell--6-col mdl-cell--6-col-desktop mdl-shadow--4dp" style="display:none;">
+                    <div class="mdl-card__title-priori mdl-color-text--blue">
+                        <h2 class="mdl-card__title-text-priori">Nuestra Prioridad</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                        Es ofrecer alternativas que proporcionen un valor agregado a su compañía manteniendo en todo momento siempre la optimización de los recursos y realizando propuestas que se adapten a las necesidades de su negocio.
+                    </div>
+                </div>
+
+
+
+
+                <div id="quienes_somos4" class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col  mdl-cell--8-col" style="display:none;">
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-800" style=" background:rgba(235, 157, 55, 0.79);">
+                        BREM cuenta con consultores con mas de 15 años de experiencia en la industria alimentaria lo cual permite ofrecer a nuestros clientes un sistema integral, enfocados principalmente a tres sistemas que apoyan a cumplir los objetivos empresariales como lo son:
+                    </div>
+                    <div class="mdl-card__title" style="background: rgba(130, 167, 191, 0.6);">
+
+                        <div class="demo-list-action mdl-list">
+                            <div class="mdl-list__item">
+                                <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Desarrollo, implementación y mejora del Sistema de Gestión de Calidad e Inocuidad</span>
+                                </span>
+
+                            </div>
+                            <div class="mdl-list__item">
+                                <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Mejora Continua de procesos productivos (revisión de la productividad)</span>
+                                </span>
+
+                            </div>
+                            <div class="mdl-list__item">
+                                <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                    <span>Desarrollo de Nuevos Productos</span>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div id="quienes_somos5" class="mdl-card  circulos mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--12-col-desktop" style=" height: 1200px; display:none; background:none">
+                    <div class="mdl-card__title">
+
+                        <div class="container1">
+                            <div class="div-img">
+                                <img class="img" src="images/mision.jpg">
+                                <div class="overlay"></div>
+                                <div class="text">
+                                    <h3>Misión</h3>Ofrecer Servicios de excelente calidad mediante la evaluación e implementación de sistemas que se acoplen a las necesidades de nuestros clientes, superando sus expectativas y proporcionando herramientas que les permitan tener un alto margen de competitividad en el mercado actual.</div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="container2">
+                            <div class="div-img">
+                                <img class="img" src="images/vision.jpg">
+                                <div class="overlay"></div>
+                                <div class="text">
+                                    <h3>Visión</h3>Ser la Consultoría con mayor reconocimiento por ofrecer Servicios Integrales que se acoplen y superen las necesidades de nuestros clientes. </div>
+                            </div>
+                        </div>
+
+
+                        <div class="container3">
+                            <div class="div-img">
+                                <img class="img" src="images/valores.jpg">
+                                <div class="overlay"></div>
+                                <div class="text">
+                                    <h3>Valores</h3>
+
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                    <span>Conducirnos en todo momento con Profesionalismo hacia nuestros clientes y equipo de trabajo.</span>
+                                    </span>
+                                    <br>
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                    <span>Mantener y garantizar la Confidencialidad de la información de nuestros clientes y la compañía.</span>
+                                    </span>
+                                    <br>
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                    <span>Manejar nuestro trabajo con Responsabilidad, Honestidad, Ética y Compromiso constante.</span>
+                                    </span>
+                                    <br>
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                    <span>Siempre tener una actitud de Servicio, Disciplina y Respeto.</span>
+                                    </span>
+                                    <br>
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                    <span>Ofrecer siempre servicios de alta Calidad para garantizar la satisfacción de nuestros clientes.</span>
+                                    </span>
+                                    <br>
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                    <span>Mantener la dedicación constante para lograr el éxito de cada cliente.</span>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <!--  ************************************  SERVICIOS   ***********************************************************      >-->
+
+
+
+
+                <!--  ************************************  serv_sistema   ***********************************************************      >-->
+
+
+
+
+
+
+                <div id="servicios1" class="mdl-cell--4-col-phone mdl-cell--6-col-tablet mdl-cell--11-col-desktop" style="display:none;" onclick="sistemas_serv_open();">
+
+                    <ul class="ca-menu mdl-cell--4-col-phone mdl-cell--6-col-tablet mdl-cell--6-col-desktop ">
+                        <li>
+                            <a href="#">
+                                <span class="ca-icon" style="color:indigo;">search</span>
+                                <div class="ca-content">
+                                    <h4 class="ca-main" style="margin-top: 0px; margin-right: 10px;">Sistema de Gestión de Calidad e Inocuidad</h4>
+
+
+
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                <style>
+                    .demo-blog .ser_sistema {
+                        margin-left: 13px;
+                        margin-right: 17px;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                        height: auto;
+                    }
+                    
+                    .demo-blog .ser_sistema .mdl-card__title {
+                        background: url('images/sist_calidad.jpg') center / cover;
+                        opacity: 0.7;
+                        height: 200px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                    }
+                    
+                    .demo-blog .ser_sistema .mdl-card__actions {
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        background: indigo;
+                        opacity: 0.7;
+                        height: auto;
+                    }
+                    
+                    .demo-blog .ser_sistema .mdl-card__supporting-text {
+                        background: white;
+                        height: auto;
+                    }
+                </style>
+
+
+
+                <div id="s_sistema" class="mdl-card ser_sistema mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--11-col-desktop mdl-shadow--2dp" style="display:none;">
+                    <div class="mdl-card__title">
+
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <strong class="mdl-color-text--grey-600">
+                        En la actualidad las industrias y establecimientos procesadores de alimentos deben cumplir con diversos requisitos gubernamentales y normativas obligatorias para asegurarse que los productos que comercializan cumplen con los estándares de calidad y garanticen al consumidor que no le causara daño a la salud.
+
+                        Hoy por hoy los clientes y consumidores exigen se les ofrezca garantía en seguridad alimentaria de los productos que consumen y esto ha ido en aumento desde la aparición de ciertas crisis alimentarias que se han presentado en los últimos años. Por tal exigencia se ha generado a las industrias de este ramo adoptar medidas extras a las que se deben de dar cumplimiento en el país de venta del producto. 
+
+                        Por tal motivo se han creado normativas y certificaciones internacionales, para que una vez implementadas de la forma adecuada, cuenten con las herramientas necesarias para controlar la calidad y la inocuidad del producto, de esta manera afianzar la confianza y lealtad del consumidor hacia la marca y producto.
+      
+                        </strong>
+
+                    </div>
+
+                    <div class="mdl-card__supporting-text">
+                        <strong class="mdl-color-text--grey-600"><a> BREM consultores para la industria alimentaria</a>, cuenta con Ingenieros con una amplia experiencia en el ramo alimenticio, los cuales evaluaran, desarrollaran e implementaran en conjunto con el equipo de planta, el sistema de gestión que en base a las necesidades del cliente, se adapte y sea mas funcional para su operación.
+
+                        Damos asesoría, consultoría, desarrollo e implementación del sistema de gestión de calidad e inocuidad asegurando el cumplimiento a las normativas del país destino de venta y que toda la cadena de valor cumpla con los requerimientos establecidos, BPM´s, BPA´s, BPT´s, Cumplimiento a las NOM, HACCP con cumplimiento en la NOM-251-SSA1-2009 y CODEX Alimentarius  y asesoría  para las certificaciones deseadas como ISO 9001, FSSC 22000, SQF, ISO 22000,  Auditorias tipo AIB, Distintivo H.
+                        </strong>
+
+                    </div>
+
+
+                    <div class="mdl-card__supporting-text" style=" background:rgba(235, 157, 55, 0.8);">
+                        <strong class="mdl-color-text--black"> Las ventajas de tener implementado un sistema de gestión son: 
+                        </strong>
+
+
+
+                    </div>
+
+                    <div class="demo-list-action mdl-list" style=" background:rgba(235, 157, 55, 0.6);">
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Apertura de nuevos clientes.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Generar una ventaja competitiva en el mercado contra la competencia.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                    <span>Aumento de la lealtad de clientes y consumidores, al evitar rechazo y/o quejas por no cumplir con los estándares.</span>
+                            </span>
+
+                        </div>
+
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Estandarización de la calidad de sus productos.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Mantener los estándares en el control del proceso, producción y productos.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Mantener controles necesarios que garanticen que su producto no causa daño a la salud de los consumidores (inocuidad).</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Evitar mermas y/o perdidas a su empresa por destrucción de productos y retiros del mercado, por medio de controles que permitan la prevención mas que la reacción.</span>
+                            </span>
+
+                        </div>
+
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Cumplimiento a las regulaciones obligatorias.</span>
+                            </span>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="mdl-card__actions mdl-card--border" onclick="sistemas_serv_close();">
+
+                        <i id="reg_s_sistema" href="#" class="material-icons" style="color:white;  margin-left:90%;">expand_less</i>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <!--  ************************************  mejora   ***********************************************************      >-->
+
+
+
+                <div id="servicios2" class="mdl-cell--4-col-phone mdl-cell--6-col-tablet mdl-cell--11-col-desktop" style="display:none" onclick="mejora_serv_open();">
+                    <ul class="ca-menu mdl-cell--4-col-phone mdl-cell--6-col-tablet mdl-cell--6-col-desktop">
+
+                        <li>
+                            <a href="#">
+                                <span class="ca-icon" style="color:indigo;">autorenew</span>
+
+
+                                <div class="ca-content">
+                                    <h4 class="ca-main" style="margin-top: 0px;">Mejora Continua</h4>
+
+                                </div>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+
+
+
+
+                <style>
+                    .demo-blog .ser_mejora {
+                        margin-left: 13px;
+                        margin-right: 17px;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                        height: auto;
+                    }
+                    
+                    .demo-blog .ser_mejora .mdl-card__title {
+                        background: url('images/mejora.jpg') center / cover;
+                        opacity: 0.5;
+                        height: 200px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                    }
+                    
+                    .demo-blog .ser_mejora .mdl-card__actions {
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        background: indigo;
+                        opacity: 0.7;
+                        height: auto;
+                    }
+                    
+                    .demo-blog .ser_mejora .mdl-card__supporting-text {
+                        background: white;
+                        height: auto;
+                    }
+                </style>
+
+
+
+                <div id="s_mejora" class="mdl-card ser_mejora mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--11-col-desktop mdl-shadow--2dp" style="display:none">
+                    <div class="mdl-card__title">
+
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <strong class="mdl-color-text--grey-600">
+                        Hoy en día la demanda del mercado exige a las empresas a ser competitivos y  aumentar su capacidad productiva por medio de un camino de mejora continua y estandarización de los procesos. Es importante el que las empresas sean consientes de las ventajas competitivas con las cuales cuentan y trabajar sus áreas de oportunidad para mejorar su productividad.
+
+                        Mejora de Procesos es entendido como un replanteamiento y rediseño de los procesos de negocio para lograr mejoras sustánciales en las medidas críticas de desarrollo, tales como costo, calidad, servicio y rapidez.
+
+      
+                        </strong>
+
+                    </div>
+
+                    <div class="mdl-card__supporting-text">
+                        <strong class="mdl-color-text--grey-600"><a> BREM consultores para la industria alimentaria</a>, ofrecemos servicio de consultoría para realizar un análisis y optimizar su proceso productivo (mapeo de procesos), así como la estandarización del plan maestro de producción,  evaluación de tiempos y movimientos. Nuestro objetivo principal es realizar un análisis minucioso de los procesos operativos e identificar los puntos de mejora, mediante herramientas enfocadas a las necesidades de cada cliente, que nos permiten realizar la mejora del proceso.
+                        </strong>
+
+                    </div>
+
+
+                    <div class="mdl-card__supporting-text" style=" background:rgba(235, 157, 55, 0.8);">
+                        <strong class="mdl-color-text--black"> El beneficio de la mejora continua es: 
+                        </strong>
+
+
+
+                    </div>
+
+                    <div class="demo-list-action mdl-list" style=" background:rgba(235, 157, 55, 0.6);">
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Aumentar la satisfacción de los clientes (Valor Agregado).</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Mejorar la calidad de los productos y servicios.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                    <span>Incrementar la ventaja competitiva.</span>
+                            </span>
+
+                        </div>
+
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Mejorar la eficacia y la eficiencia de los procesos.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Mejorar el confort y productividad de los trabajadores.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Detectar deficiencias y se aplican acciones correctoras.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Mejorar la higiene industrial y salud ocupacional de la empresa.</span>
+                            </span>
+
+                        </div>
+
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Aumentar el sentido de pertenencia de los trabajadores.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Reducción de costos.</span>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="mdl-card__actions mdl-card--border" onclick="mejora_serv_close();">
+
+                        <i id="reg_s_mejora" href="#" class="material-icons" style="color:white;  margin-left:90%;">expand_less</i>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <!--  ************************************  desarrollo*********************************************************** -->
+
+                <div id="servicios3" class="mdl-cell--4-col-phone mdl-cell--6-col-tablet mdl-cell--11-col-desktop" style="display:none" onclick="desarrollo_serv_open();">
+                    <ul class="ca-menu mdl-cell--4-col-phone mdl-cell--6-col-tablet mdl-cell--6-col-desktop ">
+
+                        <li>
+                            <a href="#">
+                                <span class="ca-icon" style="color:indigo;">brightness_7</span>
+                                <div class="ca-content">
+                                    <h4 class="ca-main" style="margin-top: 0px;">Desarrollo</h4>
+
+                                </div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+
+
+
+                <style>
+                    .demo-blog .ser_desarrollo {
+                        margin-left: 13px;
+                        margin-right: 17px;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                        height: auto;
+                    }
+                    
+                    .demo-blog .ser_desarrollo .mdl-card__title {
+                        background: url('images/desarrollo.jpg') center / cover;
+                        opacity: 0.4;
+                        height: 200px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                    }
+                    
+                    .demo-blog .ser_desarrollo .mdl-card__actions {
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        background: indigo;
+                        opacity: 0.7;
+                        height: auto;
+                    }
+                    
+                    .demo-blog .ser_desarrollo .mdl-card__supporting-text {
+                        background: white;
+                        height: auto;
+                    }
+                </style>
+
+
+
+                <div id="s_desarrollo" class="mdl-card ser_desarrollo mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--11-col-desktop mdl-shadow--2dp" style="display:none">
+                    <div class="mdl-card__title">
+
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <strong class="mdl-color-text--grey-600">
+                        En la actualidad la exigencia tanto de clientes como de consumidores y la competitividad en el mercado va en aumento, las empresas cada día deben de ofrecer un plus que marque la diferencia de sus productos, para la introducción al mercado y garantizar la fidelidad de los consumidores.
+
+                        Los clientes y consumidores marcan su fidelidad al estar convencidos que el producto que están adquiriendo es redituable y es lo que esperaban (calidad del producto y atributos de experiencia), de igual manera, dicha lealtad la marca también el cumplimiento reglamentario que deben de tener y que se exige a todos los procesadores de alimentos, el cual se debe exhibir en el empaque del mismo (etiquetado, aditivos, información nutrimental etc.).
+
+
+      
+                        </strong>
+
+                    </div>
+
+                    <div class="mdl-card__supporting-text">
+                        <strong class="mdl-color-text--grey-600">Para los procesadores de alimentos es de suma importancia el saber si los aditivos (conservadores, colorantes, saborizantes etc.) que se están utilizando, son realmente los mas adecuados para su producto, si cumplen con la funcionalidad esperada, y sobre todo si están permitidos tanto en cantidad como en tipo, a los autorizados por las regulaciones gubernamentales.
+
+                        </strong>
+
+                    </div>
+
+
+                    <div class="mdl-card__supporting-text" style=" background:rgba(235, 157, 55, 0.8);">
+                        <strong class="mdl-color-text--black"> <a>En BREM consultores para la industria alimentaria</a>, ofrecemos asesoría y consultoría para estandarizar, adecuar, mejorar y/o innovar el producto que usted desea, para lo cual contamos con el siguiente soporte:
+
+                        </strong>
+
+
+
+                    </div>
+
+                    <div class="demo-list-action mdl-list" style=" background:rgba(235, 157, 55, 0.6);">
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Optimización de formulaciones.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Evaluación de insumos.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                    <span>Cumplimiento a las exigencias sanitarias.</span>
+                            </span>
+
+                        </div>
+
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Cumplimiento normativo.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Etiquetado.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Reducción de costos del producto.</span>
+                            </span>
+
+                        </div>
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Elaboración de especificaciones y fichas técnicas del producto.</span>
+                            </span>
+
+                        </div>
+
+                        <div class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon" style="color:indigo;">bubble_chart</i>
+                                            <span>Desarrollo de nuevos productos.</span>
+                            </span>
+
+                        </div>
+                   
+
+                    </div>
+
+
+
+
+
+                    <div class="mdl-card__actions mdl-card--border" onclick="desarrollo_serv_close();">
+
+                        <i id="reg_s_desarrollo" href="#" class="material-icons" style="color:white;  margin-left:90%;">expand_less</i>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <!--  ************************************  CONTACTO   ***********************************************************      >-->
+
+
+
+
+
+
+
+
+
+
+                <style>
+                    .contacto {
+                        border-radius: 20px;
+                        padding: 45px 45px;
+                        margin-top: 10px;
+                        margin-left: 170px;
+                        width: 60%;
+                    }
+                    
+                    .demo-blog.is-small-screen .contacto_brem .mdl-card__supporting-text .contacto {
+                        width: 100%;
+                        margin-left: 0px;
+                    }
+                    
+                    .contacto label {
+                        display: block;
+                        font-weight: bold;
+                    }
+                    
+                    .contacto div {
+                        margin-bottom: 15px;
+                    }
+                    
+                    .contacto input[type='text'],
+                    .contacto textarea {
+                        padding: 7px 6px;
+                        width: 100%;
+                        resize: none;
+                        margin: 5px 10px;
+                    }
+                    
+                    .contacto input[type='text']:focus,
+                    .contacto textarea:focus {
+                        outline: none;
+                        box-shadow: 0 0 0 2px rgba(130, 167, 191, 0.9);
+                    }
+                    
+                    .contacto input[type='submit'] {
+                        box-shadow: 0 0 0 3px rgba(130, 167, 191, 0.9);
+                        border-radius: 20px;
+                        font-weight: bold;
+                        text-shadow: 1px 1px 0px whred;
+                        background: #e4f1f6;
+                        background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+                        background: -webkit-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+                    }
+                    
+                    .contacto input[type='submit']:hover {
+                        background: rgba(130, 167, 191, 0.5);
+                        background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+                        background: -webkit-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+                    }
+                    
+                    .contacto input[type='submit']:active {
+                        background: #cfe6ef;
+                        background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+                        background: -webkit-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+                    }
+                </style>
+
+
+
+                <style>
+                    .demo-blog .contacto_brem {
+                        margin-left: 13px;
+                        margin-right: 17px;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                        height: auto;
+                    }
+                    
+                    .demo-blog .contacto_brem .mdl-card__title {
+                        background: url('images/contacto.png') center / cover;
+                        opacity: 0.7;
+                        height: 200px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                    }
+                    
+                    .demo-blog .contacto_brem .mdl-card__actions {
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        background: indigo;
+                        opacity: 0.7;
+                        height: auto;
+                    }
+                    
+                    .demo-blog .contacto_brem .mdl-card__supporting-text {
+                        background: rgba(130, 167, 191, 0.7);
+                        height: auto;
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                    }
+                    
+                    .demo-blog .contacto_brem .mdl-js-button {
+                        background: rgba(130, 167, 191, 0.3);
+                    }
+                </style>
+
+
+
+
+
+
+
+
+
+                <div id="contacto1" class="mdl-card contacto_brem mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--12-col-desktop" style="display:none; background:none;">
+                    <div class="mdl-card__title">
+
+                    </div>
+
+
+                    <div class="mdl-card__supporting-text mdl-cell--8-col-phone mdl-cell--8-col-tablet mdl-cell--12-col-desktop">
+                        <form class="contacto" action="send.php" method="post">
+
+
+                            <div><label>Nombre:</label><input id="nombre_txt" name="nombre_txt" type='text' value=''></div>
+
+                            <div><label>Email:</label><input id="mail_txt" name="mail_txt" type='text' value=''></div>
+                            
+                            <div><label>Telefono:</label><input id="tel_txt" name="tel_txt" type='text' value=''></div>
+
+                            <div><label>Asunto:</label><input id="asunto_txt" name="asunto_txt" type='text' value=''></div>
+
+                            <div><label>Mensaje:</label><textarea id="mensaje_txt" name="mensaje_txt" rows='6'></textarea></div>
+
+
+
+
+                            <button id="demo-show-snackbar"  class=" mdl-js-button mdl-button--raised"  type="button">Enviar</button>
+                            <div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+                                <div class="mdl-snackbar__text"></div>
+                                <button class="mdl-snackbar__action" type="button" ></button>
+                            </div>
+
+
+                        </form>
+                        
+                        
+                        
+                       
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+                    </div>
+
+                        
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <!--  ************************************  FOOTER   ***********************************************************      >-->
+            </div>
+
+
+            <footer class="mdl-mega-footer">
+
+                <div class="mdl-mega-footer--bottom-section">
+                    <div class="mdl-logo">
+                        Mas Información
+                    </div>
+                    <ul class="mdl-mega-footer--link-list">
+                        <li><a>BREM</a></li>
+                        <li><a href="tel:+556160328">Llamanos 5561160328</a></li>
+                        <li><a href="mailto:brem.consultores@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+            </footer>
+
+
+
+        </main>
+
+    </div>
+    <!-- <a href="mailto:brem.consultores@gmail.com" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--white">Contactanos</a>-->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+
+
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+
+
+
+
+
+<script>
+    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
+        var link = el.querySelector('a');
+        if (!link) {
+            return;
+        }
+        var target = link.getAttribute('href');
+        if (!target) {
+            return;
+        }
+        el.addEventListener('click', function() {
+            location.href = target;
+        });
+    });
+
+
+    document.querySelector('.mdl-layout__drawer').addEventListener('click', function() {
+        document.querySelector('.mdl-layout__obfuscator').classList.remove('is-visible');
+        this.classList.remove('is-visible');
+    }, false);
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+    //********     HOME    ******** 
+
+
+
+    function home() {
+        document.getElementById('home1').style.display = 'inherit';
+        document.getElementById('home2').style.display = 'inherit';
+        document.getElementById('home3').style.display = 'inherit';
+        document.getElementById('home4').style.display = 'inherit';
+        document.getElementById('home5').style.display = 'inherit';
+
+        document.getElementById('quienes_somos1').style.display = 'none';
+        document.getElementById('quienes_somos2').style.display = 'none';
+        document.getElementById('quienes_somos3').style.display = 'none';
+        document.getElementById('quienes_somos4').style.display = 'none';
+        document.getElementById('quienes_somos5').style.display = 'none';
+
+
+        document.getElementById('servicios1').style.display = 'none';
+        document.getElementById('servicios2').style.display = 'none';
+        document.getElementById('servicios3').style.display = 'none';
+
+
+
+        document.getElementById('s_sistema').style.display = 'none';
+        document.getElementById('s_mejora').style.display = 'none';
+        document.getElementById('s_desarrollo').style.display = 'none';
+
+        document.getElementById('link_home').style.background = 'rgba(2, 162, 4, 0.4)';
+        document.getElementById('link_quienes_somos').style.background = 'rgba(130, 167, 191, 0.3)';
+        document.getElementById('link_servicios').style.background = 'rgba(130, 167, 191, 0.3)';
+        document.getElementById('link_contacto').style.background = 'rgba(130, 167, 191, 0.3)';
+
+
+
+
+
+
+
+        document.getElementById('link_home').style.fontWeight = 'bold';
+        document.getElementById('link_quienes_somos').style.fontWeight = 'normal';
+        document.getElementById('link_servicios').style.fontWeight = 'normal';
+        document.getElementById('link_contacto').style.fontWeight = 'normal';
+
+
+
+
+
+        $('html, main').animate({
+            scrollTop: 0
+        }, 'slow');
+        return false;
+    }
+
+
+
+
+    //********     QUIENES SOMOS   ******** 
+
+
+
+    function quienes() {
+
+        document.getElementById('home1').style.display = 'none';
+        document.getElementById('home2').style.display = 'none';
+        document.getElementById('home3').style.display = 'none';
+        document.getElementById('home4').style.display = 'none';
+        document.getElementById('home5').style.display = 'none';
+
+        document.getElementById('quienes_somos1').style.display = 'inherit';
+        document.getElementById('quienes_somos2').style.display = 'inherit';
+        document.getElementById('quienes_somos3').style.display = 'inherit';
+        document.getElementById('quienes_somos4').style.display = 'inherit';
+        document.getElementById('quienes_somos5').style.display = 'inherit';
+
+
+        document.getElementById('servicios1').style.display = 'none';
+        document.getElementById('servicios2').style.display = 'none';
+        document.getElementById('servicios3').style.display = 'none';
+
+        document.getElementById('s_sistema').style.display = 'none';
+        document.getElementById('s_mejora').style.display = 'none';
+        document.getElementById('s_desarrollo').style.display = 'none';
+
+        document.getElementById('contacto1').style.display = 'none';
+
+
+
+
+
+
+        document.getElementById('link_home').style.background = 'rgba(130, 167, 191, 0.3)';
+        document.getElementById('link_quienes_somos').style.background = 'rgba(2, 162, 4, 0.4)';
+        document.getElementById('link_servicios').style.background = 'rgba(130, 167, 191, 0.3)';
+        document.getElementById('link_contacto').style.background = 'rgba(130, 167, 191, 0.3)';
+
+
+
+
+
+
+        document.getElementById('link_home').style.fontWeight = 'normal';
+        document.getElementById('link_quienes_somos').style.fontWeight = 'bold';
+        document.getElementById('link_servicios').style.fontWeight = 'normal';
+        document.getElementById('link_contacto').style.fontWeight = 'normal';
+
+
+
+
+
+
+        $('html, main').animate({
+            scrollTop: 0
+        }, 'slow');
+        return false;
+
+
+    }
+
+
+
+
+    //********     Servicios que ofrecemos   ******** 
+
+
+    function servicios() {
+
+        document.getElementById('home1').style.display = 'none';
+        document.getElementById('home2').style.display = 'none';
+        document.getElementById('home3').style.display = 'none';
+        document.getElementById('home4').style.display = 'none';
+        document.getElementById('home5').style.display = 'none';
+
+        document.getElementById('quienes_somos1').style.display = 'none';
+        document.getElementById('quienes_somos2').style.display = 'none';
+        document.getElementById('quienes_somos3').style.display = 'none';
+        document.getElementById('quienes_somos4').style.display = 'none';
+        document.getElementById('quienes_somos5').style.display = 'none';
+
+
+
+        document.getElementById('servicios1').style.display = 'inherit';
+        document.getElementById('servicios2').style.display = 'inherit';
+        document.getElementById('servicios3').style.display = 'inherit';
+
+
+        document.getElementById('s_sistema').style.display = 'none';
+        document.getElementById('s_mejora').style.display = 'none';
+        document.getElementById('s_desarrollo').style.display = 'none';
+
+        document.getElementById('contacto1').style.display = 'none';
+
+
+
+
+
+        document.getElementById('link_home').style.background = 'rgba(130, 167, 191, 0.3)';
+        document.getElementById('link_quienes_somos').style.background = 'rgba(130, 167, 191, 0.3)';
+        document.getElementById('link_servicios').style.background = 'rgba(2, 162, 4, 0.4)';
+        document.getElementById('link_contacto').style.background = 'rgba(130, 167, 191, 0.3)';
+
+
+
+
+
+
+        document.getElementById('link_home').style.fontWeight = 'normal';
+        document.getElementById('link_quienes_somos').style.fontWeight = 'normal';
+        document.getElementById('link_servicios').style.fontWeight = 'bold';
+        document.getElementById('link_contacto').style.fontWeight = 'normal';
+
+
+
+
+
+
+        $('html, main').animate({
+            scrollTop: 0
+        }, 'slow');
+        return false;
+
+
+
+    }
+
+
+    function contacto() {
+
+        document.getElementById('home1').style.display = 'none';
+        document.getElementById('home2').style.display = 'none';
+        document.getElementById('home3').style.display = 'none';
+        document.getElementById('home4').style.display = 'none';
+        document.getElementById('home5').style.display = 'none';
+
+        document.getElementById('quienes_somos1').style.display = 'none';
+        document.getElementById('quienes_somos2').style.display = 'none';
+        document.getElementById('quienes_somos3').style.display = 'none';
+        document.getElementById('quienes_somos4').style.display = 'none';
+        document.getElementById('quienes_somos5').style.display = 'none';
+
+
+
+        document.getElementById('servicios1').style.display = 'none';
+        document.getElementById('servicios2').style.display = 'none';
+        document.getElementById('servicios3').style.display = 'none';
+
+
+        document.getElementById('s_sistema').style.display = 'none';
+        document.getElementById('s_mejora').style.display = 'none';
+        document.getElementById('s_desarrollo').style.display = 'none';
+
+
+
+        document.getElementById('contacto1').style.display = 'inherit';
+
+
+
+
+
+
+
+        document.getElementById('link_home').style.background = 'rgba(130, 167, 191, 0.3)';
+        document.getElementById('link_quienes_somos').style.background = 'rgba(130, 167, 191, 0.3)';
+        document.getElementById('link_servicios').style.background = 'rgba(130, 167, 191, 0.3)';
+        document.getElementById('link_contacto').style.background = 'rgba(2, 162, 4, 0.4)';
+
+
+
+
+
+
+        document.getElementById('link_home').style.fontWeight = 'normal';
+        document.getElementById('link_quienes_somos').style.fontWeight = 'normal';
+        document.getElementById('link_servicios').style.fontWeight = 'normal';
+        document.getElementById('link_contacto').style.fontWeight = 'bold';
+
+
+
+
+
+
+        $('html, main').animate({
+            scrollTop: 0
+        }, 'slow');
+        return false;
+
+
+
+    }
+
+$("#demo-show-snackbar").click(function(){
+ 
+     var mensaje= $("#mensaje_txt").val();
+     var nombre= $("#nombre_txt").val();
+     var tel= $("#tel_txt").val();
+     var correo= $("#mail_txt").val();
+     var asunto= $("#asunto_txt").val();
+    
+    
+    document.getElementById("nombre_txt").value = "";
+        document.getElementById("mail_txt").value = "";
+        document.getElementById("asunto_txt").value = "";
+        document.getElementById("mensaje_txt").value = "";
+      document.getElementById("tel_txt").value = "";
+    
+    var cadena_mensaje=  "https://carlosjavier.000webhostapp.com/send2.php?mensaje="+mensaje+"&nombre="+nombre+"&tel="+tel+"&correo="+correo+"&asunto="+asunto;  
+    
+    
+  $.post(cadena_mensaje, function(){
+       
+      
+      
+   });
+    
+    
+    
+    
+     
+ 
+});
+    
+    
+
+    function envia_mensaje() {
+
+
+        document.getElementById("nombre_txt").value = "";
+        document.getElementById("mail_txt").value = "";
+        document.getElementById("asunto_txt").value = "";
+        document.getElementById("mensaje_txt").value = "";
+
+
+
+
+        $('html, main').animate({
+            scrollTop: 0
+        }, 'slow');
+        return false;
+
+
+
+
+
+
+    }
+
+
+
+
+    //********     Servicios SISTEMAS   ******** 
+
+    function sistemas_serv_open() {
+
+        document.getElementById('s_sistema').style.display = 'inherit';
+
+
+
+
+    }
+
+
+
+    function sistemas_serv_close() {
+
+        $('html, main').animate({
+            scrollTop: 0
+        }, 'slow');
+
+        $('#s_sistema').toggle("3000");
+
+
+    }
+
+
+
+
+    ////////////********     Servicios Mejora   ******** 
+
+    function mejora_serv_open() {
+
+
+        document.getElementById('s_mejora').style.display = 'inherit';
+
+
+
+    }
+
+
+    function mejora_serv_close() {
+
+        $('html, main').animate({
+            scrollTop: 0
+        }, 'slow');
+
+        $('#s_mejora').toggle("3000");
+
+
+    }
+
+
+
+
+    ////////////********     Desarrollo   ******** 
+
+    function desarrollo_serv_open() {
+
+
+        document.getElementById('s_desarrollo').style.display = 'inherit';
+
+
+
+    }
+
+
+    function desarrollo_serv_close() {
+
+        $('html, main').animate({
+            scrollTop: 0
+        }, 'slow');
+
+        $('#s_desarrollo').toggle("3000");
+
+
+    }
+</script>
+
+
+
+<script>
+    function hideAddressBar() {
+        if (!window.location.hash) {
+            if (document.height < window.outerHeight + 10) {
+                document.body.style.height = (window.outerHeight + 50) + 'px';
+            }
+
+            setTimeout(function() {
+                window.scrollTo(0, 1);
+            }, 50);
+        }
+    }
+
+
+    /**
+     * Start up procedure to hide the Android's URL bar
+     */
+
+    window.addEventListener("load", function() {
+
+        if (!window.pageYOffset) {
+            hideAddressBar();
+        }
+
+        window.addEventListener("orientationchange", hideAddressBar);
+
+    });
+</script>
+
+
+
+
+<script>
+    (function() {
+        'use strict';
+        var snackbarContainer = document.querySelector('#demo-snackbar-example');
+        var showSnackbarButton = document.querySelector('#demo-show-snackbar');
+        var handler = function(event) {
+            showSnackbarButton.style.backgroundColor = '';
+        };
+        showSnackbarButton.addEventListener('click', function() {
+            'use strict';
+
+            var data = {
+                message: 'Mensaje enviado.',
+                timeout: 2000,
+                actionHandler: handler,
+                actionText: 'Gracias'
+            };
+            snackbarContainer.MaterialSnackbar.showSnackbar(data);
+        });
+    }());
+</script>
+
+
+
+
+
+
+
+</html>
